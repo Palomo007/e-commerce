@@ -9,8 +9,16 @@ margin: 0px;
 padding: 0px;
 }
 
+body {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 img::before{
-content: "Hola";
-width: 200px;
-height: 200px;
+  content: "Hola";
+  width: 200px;
+  height: 200px;
 }
