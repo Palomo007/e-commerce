@@ -216,6 +216,12 @@ a {
   padding: 0.2em 2em;
 }
 
+.navbar__search input:focus {
+  outline: none;
+  border-bottom: 1px solid #333;
+}
+
+
 .navbar__search input::placeholder {
   overflow: visible;
 }
