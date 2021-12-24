@@ -22,8 +22,8 @@
         </strong>
       </div>
 
-      <div class="navbar__items">
-        <button id='menu' class="navbar__menu-icon"><i class="fas fa-bars"></i></button>
+      <button id='menu' class="navbar__menu-icon"><i class="fas fa-bars"></i></button>
+      <div id='navbarItems' class="navbar__items">
         <div class="navbar__left flex flex-column">
           <ul class="navbar__links flex">
             <li><a href="#">Products</a></li>
@@ -45,13 +45,15 @@
           </div>
           <div class="navbar__controls">
             <img class="navbar__profile-pic" src="./assets/img/foto.jpg" alt="foto perfil">
-            <i class="fas fa-times close-nav"></i>
+            <i id='closeMenu' class="fas fa-times close-nav"></i>
           </div>
         </div>
       </div>
 
     </nav>
   </header>
+
+  <script src="./index.js"></script>
 </body>
 
 </html>

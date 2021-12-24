@@ -127,6 +127,7 @@ a {
 
 .navbar {
   padding-block: 1em;
+  justify-content: space-between;
 }
 
 .navbar__items {
@@ -139,10 +140,12 @@ a {
   display: flex;
   flex-direction: column-reverse;
   justify-content: right;
+  display: none;
 }
 
 @media only screen and (min-width: 768px) {
   .navbar__items {
+    display: flex;
     background: transparent;
     flex-direction: row;
     position: static;
@@ -173,6 +176,10 @@ a {
   }
 
   .close-nav {
+    display: none;
+  }
+
+  .navbar__menu-icon {
     display: none;
   }
 }
@@ -232,10 +239,6 @@ a {
     top: 35%;
     left: 1%;
   }
-}
-
-.navbar__menu-icon {
-  display: none;
 }
 
 .navbar__controls {
